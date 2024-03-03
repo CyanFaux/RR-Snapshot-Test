@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders a snapshot 1`] = `
+<div>
+  <h1>
+    CyanFaux
+  </h1>
+  <img
+    alt="Photo of Me"
+    src="photo_of_me.jpg"
+  />
+  <p>
+    blurb about me
+  </p>
+</div>
+`;
+
+exports[`renders a snapshot 2`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <img
+      alt="logo"
+      className="App-logo"
+      src="logo.svg"
+    />
+    <p>
+      <div>
+        <h1>
+          CyanFaux
+        </h1>
+        <img
+          alt="Photo of Me"
+          src="photo_of_me.jpg"
+        />
+        <p>
+          blurb about me
+        </p>
+      </div>
+    </p>
+    <a
+      className="App-link"
+      href="https://reactjs.org"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      Learn React
+    </a>
+  </header>
+</div>
+`;
